@@ -1,0 +1,7 @@
+D:\vezbe\New folder\vezbaW3Nested\bin\Debug\vezbaW3Nested.exe.config
+D:\vezbe\New folder\vezbaW3Nested\bin\Debug\vezbaW3Nested.exe
+D:\vezbe\New folder\vezbaW3Nested\bin\Debug\vezbaW3Nested.pdb
+D:\vezbe\New folder\vezbaW3Nested\obj\Debug\vezbaW3Nested.csproj.AssemblyReference.cache
+D:\vezbe\New folder\vezbaW3Nested\obj\Debug\vezbaW3Nested.csproj.CoreCompileInputs.cache
+D:\vezbe\New folder\vezbaW3Nested\obj\Debug\vezbaW3Nested.exe
+D:\vezbe\New folder\vezbaW3Nested\obj\Debug\vezbaW3Nested.pdb

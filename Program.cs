@@ -16,25 +16,43 @@ namespace vezbaW3Nested
 
             double pricePerUnit = 0;
             double bill = 0;
+            double surcharge = 0;
+            double billFinal = 0;
 
-
-            if (unitUsed <= 199)
+            if (unitUsed < 200)
             {
                 pricePerUnit = 1.2;
+                
             }
-            else if (unitUsed <= 399)
+            else if (unitUsed < 400)
             {
                 pricePerUnit = 1.5;
             }
-            else if (pricePerUnit <= 599)
+            else if (unitUsed < 600)
             {
                 pricePerUnit = 1.8;
             }
-            else
+            else if (unitUsed >= 600)
             {
                 pricePerUnit = 2.00;
             }
 
+            bill = pricePerUnit * unitUsed;
+
+            if (bill > 400)
+            {
+                surcharge = bill * 0.15;
+                
+                billFinal = bill + surcharge;
+            }
+
+            Console.WriteLine($"Customer IDNO {idNumber}");
+            Console.WriteLine($"Customer Name {name}");
+            Console.WriteLine($"Units consumed {unitUsed}");
+            Console.WriteLine($"Amount charges {pricePerUnit:F2} per unit: {bill:F2}");
+            Console.WriteLine($"Surcharge amount: {surcharge:F2}");
+            Console.WriteLine($"Net amount paid by the custromer: {billFinal:F2}");
+            Console.ReadKey();
 
         }
     }
