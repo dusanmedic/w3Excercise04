@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vezbaW3Nested", "vezbaW3Nested.csproj", "{B0A4B232-CCE1-4605-8882-5FE354E1ECBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A4B232-CCE1-4605-8882-5FE354E1ECBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4B232-CCE1-4605-8882-5FE354E1ECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4B232-CCE1-4605-8882-5FE354E1ECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4B232-CCE1-4605-8882-5FE354E1ECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {662159B9-1D4E-494E-9BA4-83593CDF022F}
+	EndGlobalSection
+EndGlobal
