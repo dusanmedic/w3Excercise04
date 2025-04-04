@@ -10,10 +10,16 @@ namespace vezbaW3Nested
     {
         static void Main(string[] args)
         {
+            /*
+             * this is a simple excercise where we calculate and print electricity bill of a customer
+            */
+
+            //input ID, name and units consumed
             int idNumber = int.Parse(Console.ReadLine());
             string name = Console.ReadLine();
             double unitUsed = double.Parse(Console.ReadLine());
 
+            //declare variables
             double pricePerUnit = 0;
             double bill = 0;
             double surcharge = 0;
@@ -32,7 +38,7 @@ namespace vezbaW3Nested
             {
                 pricePerUnit = 1.8;
             }
-            else if (unitUsed >= 600)
+            else 
             {
                 pricePerUnit = 2.00;
             }
